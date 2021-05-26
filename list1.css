@@ -136,3 +136,35 @@ button:hover::before {
 .btn-clr3 {
     background: linear-gradient(to bottom, #ffad06, #ffad0661);
 }
+
+@media only screen and (max-width:430px) {
+    body {
+        margin: 0;
+    }
+    .main {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 0;
+    }
+    .main .left {
+        width: 80%;
+        margin: 50px 0 0 42px;
+    }
+}
+
+@media only screen and (min-width:430px) and (max-width:770px) {
+    body {
+        margin: 0;
+    }
+    .main {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+    .main .left {
+        width: 30%;
+        margin: auto;
+        margin-top: 115px;
+    }
+}
